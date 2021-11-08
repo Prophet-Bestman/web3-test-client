@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 68px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li .link{
+    padding: 4px 24px;
+    font-size: larger;
+    font-weight: 600;
+    color: #f7f7f7;
+    text-decoration: none;
+    background-color: #77217a;
+    border-radius: 100px;
+    margin: 0 4px;
+    border: #77217a solid 2px;
+    
+}
+
+.header ul li .link:hover {
+    background-color: transparent;
+    border: #b123b6 solid 2px;
+    color: #b123b6;
+}
